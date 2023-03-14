@@ -21,7 +21,7 @@ public class UserDto {
     @Email(message = "Email address is not valid !!")
     private String email;
     @NotEmpty
-    @JsonIgnore
+
     @Size(min = 3,max = 15,message = "Password must be min 3 and max 15 char !!")
     private String password;
     @NotEmpty
